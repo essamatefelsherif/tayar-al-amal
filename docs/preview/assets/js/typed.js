@@ -6,8 +6,8 @@ window.onload = () => {
 		 * @property {string} stringsElement ID of element containing string children
 		 */
 		strings: [
-		  '⋯ العيش الحرية العدل العلم العمل',
-		  '⋯ صامدون رغم الألم ومتمسكون بالأمل',
+		  'العيش الحرية العدل العلم العمل',
+		  'صامدون رغم الألم ومتمسكون بالأمل',
 		],
 		stringsElement: null,
 
@@ -62,8 +62,8 @@ window.onload = () => {
 		 * @property {string} cursorChar character for cursor
 		 * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
 		 */
-		showCursor: true,
-		cursorChar: ' ⋯',
+		showCursor: false,
+		cursorChar: '',
 		autoInsertCss: false,
 
 		/**
