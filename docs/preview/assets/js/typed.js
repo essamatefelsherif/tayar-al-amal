@@ -63,7 +63,7 @@ window.onload = () => {
 		 * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
 		 */
 		showCursor: false,
-		cursorChar: '',
+		cursorChar: '|',
 		autoInsertCss: false,
 
 		/**
